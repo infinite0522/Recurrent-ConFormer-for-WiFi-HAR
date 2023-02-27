@@ -1,0 +1,15 @@
+{
+    "model": "RConFormer",
+    "dataset": "UT-HAR",
+    "dataset_path": "./data/UT-HAR/Data.pt",
+    "class_num": 7,
+    "AClist": ["bed", "fall", "pickup", "run", "sitdown", "standup", "walk"],
+    "data_shape": [90, 2000],
+    "n_head": 4,
+    "seeds": [5],
+    "epochs" : 50,
+    "lr" : 0.0001,
+    "milestones" : "40",
+    "gamma" : 0.1,
+    "batch_size" : 16
+}
