@@ -1,8 +1,8 @@
 # Recurrent ConFormer for WiFi Activity Recognition
 
 <div align="justify">
-  This is the official implementation of our JAS 2023 paper "Recurrent ConFormer for WiFi Activity Recognition".
-In this paper,  we propose a lightweight and efficient Recurrent model of CONvolution blocks and transFORMER encoders (Recurrent ConFormer) for HAR using CSI signals. The proposed recurrent model not only combines the advantages of CNN and transformer but also builds a deep enough structure with a fixed number of parameters. Results of comparative experiments on ARIL and UT-HAR indicate the superiority of the proposed method in both accuracy and efficiency. 
+  This is the official implementation of our IEEE/CAA JAS 2023 paper "Recurrent ConFormer for WiFi Activity Recognition".
+In this paper,  we propose a lightweight and efficient Recurrent model of CONvolution blocks and transFORMER encoders (ReConFormer) for HAR using CSI signals. The proposed recurrent model not only combines the advantages of CNN and transformer but also builds a deep enough structure with a fixed number of parameters. Results of comparative experiments on ARIL and UT-HAR indicate the superiority of the proposed method in both accuracy and efficiency. 
 </div>
 
 
