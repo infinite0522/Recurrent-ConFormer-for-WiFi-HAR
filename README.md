@@ -22,7 +22,7 @@ Recurrent ConFormer consists of three main components: recurrent CNN, recurrent 
 
 </div>
 
-<img src=".\figs\fig2.png" alt="fig" style="zoom:5.2%;"/>          <img src=".\figs\fig3.png" alt="fig" style="zoom:5.2%;" />                                                                               
+<img src=".\figs\fig2.png" alt="fig" width="500px"/>          <img src=".\figs\fig3.png" alt="fig" width="500px" />                                                                               
 
 
 <center><p>Fig. The overall architecture of recurrent CNN and recurrent Transformer.</p></center>
