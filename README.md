@@ -60,7 +60,7 @@ Recurrent ConFormer consists of three main components: recurrent CNN, recurrent 
 
 
 ## Dataset preparation
-Please refer to the following links to download two standard WiFi human activity recognition datasets. 
+Please refer to the following links to download two standard WiFi human activity recognition datasets and put them in the folder "./data". 
 
 [ARIL](https://github.com/geekfeiw/ARIL)  
 [UT-HAR](https://github.com/ermongroup/Wifi_Activity_Recognition)  
