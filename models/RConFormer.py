@@ -139,3 +139,48 @@ class R_ConFormer(nn.Module):
         x = self.transformer(x)
 
         return x
+
+
+def structure(net):
+    """
+        计算网络层数以及可优化参数数量
+    """
+    total_params = 0
+    for param in filter(lambda tensor: tensor.requires_grad, net.parameters()):
+        total_params += np.prod(param.data.cpu().numpy().shape)
+    print('---------------------------------')
+    print("Total number of params", total_params)
+    print(
+        "Total layers",
+        len(
+            list(
+                filter(lambda p: p.requires_grad and len(p.data.size()) > 1,
+                       net.parameters()))))
+
+
+if __name__ == '__main__':
+    """
+    input_signal = torch.rand((51, 64, 484))
+    net = TransformerModel(n_way=30, n_feature=484, n_head=8, n_encoder_layers=12, dim_projection=256, dim_feedforward=512)
+    #print(net)
+    print(net(input_signal).shape)
+
+    structure(net)
+    """
+
+    # input_signal = torch.rand((193, 64, 52))  # [timestamp+cls, batchsize, dimension for one timestamp]
+
+    input_signal = torch.rand((64, 52, 192))  # [batchsize, dimension for one timestamp, timestamp]
+    #print(input_signal.shape)
+    #cls = torch.zeros((input_signal.shape[0], input_signal.shape[1], 1))
+    #print(cls.shape)
+    #input = torch.cat((input_signal, cls), dim=2)  # torch.Size([batchsize, 52, 192]) -> [batchsize, 52, 193]
+    #print(input.shape)
+    #input = torch.permute(input, (2, 0, 1))  # torch.Size([batchsize, 52, 193]) -> [193, batchsize, 52]
+    #print(input.shape)
+    net = R_ConFormer(n_way=6, n_feature=52, n_head=8, n_cnn_layers=4, n_encoder_layers=1, t_encoder=4, dim_projection=128,
+                             dim_feedforward=256)
+    print(net)
+    print(net(input_signal).shape)
+
+    structure(net)
