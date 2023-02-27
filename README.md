@@ -5,8 +5,8 @@
 In this paper,  we propose a lightweight and efficient Recurrent model of CONvolution blocks and transFORMER encoders (Recurrent ConFormer) for HAR using CSI signals. The proposed recurrent model not only combines the advantages of CNN and transformer but also builds a deep enough structure with a fixed number of parameters. Results of comparative experiments on ARIL and UT-HAR indicate the superiority of the proposed method in both accuracy and efficiency. 
 </div>
 
-**Recurrent ConFormer for WiFi Activity Recognition**
-Miao Shang, Xiaopeng Hong. IEEE/CAA Journal of Automatica Sinica. (JAS 23). 
+**Recurrent ConFormer for WiFi Activity Recognition**<br>
+Miao Shang, Xiaopeng Hong. IEEE/CAA Journal of Automatica Sinica. (JAS 23). <br>
 [[Paper]] (DOI：10.1109/JAS.2023.123291)
 
 
