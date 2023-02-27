@@ -30,7 +30,7 @@ Recurrent ConFormer consists of three main components: recurrent CNN, recurrent 
 
 
 ## Requirements
-- [python 3.9](We recommend to use Anaconda, since many python libs like numpy and sklearn are needed in our code.)
+- python 3.9 (We recommend to use Anaconda, since many python libs like numpy and sklearn are needed in our code.)
 
 - [PyTorch 1.12.0](https://pytorch.org/) (we run the code under version 1.12.0 with **gpu**)  
 
