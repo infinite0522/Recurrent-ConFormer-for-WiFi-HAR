@@ -22,7 +22,7 @@ Recurrent ConFormer consists of three main components: recurrent CNN, recurrent 
 
 </div>
 
-<img src=".\figs\fig2.png" alt="fig" width="500px"/>             <img src=".\figs\fig3.png" alt="fig" width="500px" />                                                                               
+<img src=".\figs\fig2.png" alt="fig" width="500px"/>       <img src=".\figs\fig3.png" alt="fig" width="500px" />                                                                               
 
 <center><p>Fig. The overall architecture of recurrent CNN and recurrent Transformer.</p></center>
 
@@ -103,14 +103,6 @@ python main.py --config configs/ARIL.json
 python main.py --config configs/UT-HAR.json
 ```
 
-
-
-## 应要求，训练函数是main.py，测试函数是test.py,单次inference代码是inference.py。
-
-## 使用时候需要直接修改代码中函数的输入，训练配置文件放在configs文件夹中。测试时需要将配置文件与保存的模型路径输入到test.py函数中。
-
-
-
 ## Evaluation
 
 Please refer to 
@@ -119,9 +111,9 @@ Please refer to
 
 ## Results
 
-<img src=".\figs\result1.png" alt="results1.png"/>
+<img src=".\figs\result1.png" alt="results1.png" width="500px"/>
 
-<img src=".\figs\result2.png" alt="results2.png"/>
+<img src=".\figs\result2.png" alt="results2.png" width="500px"/>
 
 
 
