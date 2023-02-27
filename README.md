@@ -114,7 +114,7 @@ python main.py --config configs/UT-HAR.json
 ## Evaluation
 
 Please refer to 
-[[Evaluation Code]](https://github.com/iamwangyabin/SPrompts_eval).
+[[Evaluation Code]](https://github.com/infinite0522/Recurrent-ConFormer-for-WiFi-HAR/blob/main/inference.py).
 
 
 ## Results
