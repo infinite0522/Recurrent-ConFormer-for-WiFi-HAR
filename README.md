@@ -9,7 +9,7 @@ In this paper,  we propose a lightweight and efficient Recurrent model of CONvol
 
 **Recurrent ConFormer for WiFi Activity Recognition**<br>
 Miao Shang, Xiaopeng Hong. IEEE/CAA Journal of Automatica Sinica. (JAS 23). <br>
-[[Paper]] (DOI：10.1109/JAS.2023.123291)
+[[Paper](https://ieeexplore.ieee.org/document/10084426)] (DOI：10.1109/JAS.2023.123291)
 
 
 ## Introduction
