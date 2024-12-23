@@ -1,4 +1,4 @@
-# Recurrent ConFormer for WiFi Activity Recognition
+# ReConFormer: Recurrent ConFormer for WiFi Activity Recognition
 
 <div align="justify">
   This is the official implementation of our IEEE/CAA JAS 2023 paper "Recurrent ConFormer for WiFi Activity Recognition".
